@@ -1,8 +1,4 @@
 
-<p align="center">
-  <img src="./imgs/deisam_logo_eye.png">
-</p> 
-
 # DeiSAM: Segment Anything with Deictic Prompting
 <!-- ![deisam](imgs/deisam_logo.png) -->
 
