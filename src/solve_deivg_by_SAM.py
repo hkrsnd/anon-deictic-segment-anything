@@ -27,7 +27,7 @@ def segment_dataset_by_SAM(args, data_loader, start_id, end_id):
     ckpt_config_filename = "GroundingDINO_SwinB.cfg.py"
     from segment_anything import build_sam, SamPredictor 
     steps = end_id - start_id
-    rtpt = RTPT(name_initials='HS', experiment_name='GroSAM', max_iterations=steps)
+    rtpt = RTPT(name_initials='', experiment_name='GroSAM', max_iterations=steps)
     rtpt.start()
     
     

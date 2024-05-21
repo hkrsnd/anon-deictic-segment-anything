@@ -379,7 +379,7 @@ def main(n):
 
     # Create RTPT object
     rtpt = RTPT(
-        name_initials="HS",
+        name_initials="",
         experiment_name="NEUM_{}".format(args.dataset),
         max_iterations=args.epochs,
     )

@@ -157,7 +157,7 @@ def main(n):
     writer = SummaryWriter(f"runs/{name}", purge_step=0)
 
     # Create RTPT object
-    rtpt = RTPT(name_initials='HS', experiment_name=name,
+    rtpt = RTPT(name_initials='', experiment_name=name,
                 max_iterations=args.epochs)
     # Start the RTPT tracking
     rtpt.start()
